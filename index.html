@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stayle.css">
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+</head>
+
+<body>
+
+  <div class="site-header">
+    <div class="site-information">
+      <div class="container">
+        <form action="">
+          <fieldset>
+            <div class="mort-all">
+              <h1 class="mort-text">Mortgage Calculator</h1>
+              <a href="#!" class="mort-link">Clear All</a>
+            </div>
+            <div class="data-entry">
+              <div class="data-entry__mort">
+                <label for="data-link" class="mortgage">Mortgage Amount</label>
+                <div class="input-box">
+                  <span class="yevro   jsYevroCode">£</span>
+                  <input id="data-link" type="text" class="data-entry__input  jsCodeData " required>
+
+                </div>
+                <p class="entry-data__error">This field is required</p>
+              </div>
+            </div>
+            <div class="input2x">
+              <div class="input-group">
+                <label class="mortgage">Mortgage Term</label>
+                <div class="term-input">
+                  <input type="text" id="mortgageTerm" class="fiy-year JsStyale" required>
+                  <span class="fiy-year__name">years</span>
+                </div>
+                <p class=" year__pErrorJs" id="Jserrorp">This field is required</p>
+              </div>
+
+              <div class="input-group">
+                <label class="mortgage">Interest Rate</label>
+                <div class="term-input2">
+                  <input type="text" id="mortgageTerm2" class="fiy-year2 JsStyale2" required>
+                  <span class="fiy-year__name2">%</span>
+                </div>
+                <p class=" year__pErrorJs" id="Jserrorp2">This field is required</p>
+              </div>
+            </div>
+            <label class="mortgage">Mortgage Type</label>
+            <div class="ment-only">
+
+              <div class="Repay-input">
+
+                <input type="radio" class="Repayment-radi" name="Repayment" value="Repay" id="Repay-link"><label
+                  for="Repay-link" class="Repayment-text">Repayment</label>
+              </div>
+              <div class="Only-input">
+                <input type="radio" class="Repayment-radi" name="Repayment" value="Only" id="only-link"><label
+                  for="only-link" class="Only-text">Interest Only</label>
+              </div>
+            </div>
+
+            <input type="submit" value=" Calculate Repayments" class="information-btn">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="your-results">
+
+    </div>
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
