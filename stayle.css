@@ -549,7 +549,28 @@ fieldset {
 
 /* Repay-input */
 
+.result-h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: font-size/text-preset-2;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 
+.result-p1 {
+    width: 370px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: font-size/text-preset-4;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9ABED5;
+}
 
 
 
